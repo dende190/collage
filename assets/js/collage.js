@@ -8,12 +8,7 @@
         .addEventListener(
           'click',
           function() {
-            const mensaje = (
-              dImagenContenedor
-              .querySelector('img')
-              .dataset
-              .mensaje
-            );
+            const mensaje = dImagenContenedor.dataset.mensaje;
             document.querySelector('.jsMensaje').textContent = mensaje;
             (
               document
